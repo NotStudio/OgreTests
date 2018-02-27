@@ -105,12 +105,13 @@ bool Game::init(){
 	//------------------------------------------------------------------------------------------------------
 	//Scene SetUp
 	try{
- 		Ogre::Entity * robot = scnMgr->createEntity("robot");
+		
+ 		Ogre::Entity * robot = scnMgr->createEntity("ogrehead.mesh");
 		Ogre::SceneNode * robotNode = scnMgr->getRootSceneNode()->createChildSceneNode();
 		robotNode->attachObject(robot);
 	}
 	catch (Ogre::FileNotFoundException e){
-		std::string a = e.getFile();
+		std::string a = e.getFullDescription();
 		std::cout << a;
 	}
 	scnMgr->setAmbientLight(Ogre::ColourValue(.5, .5, .5));
