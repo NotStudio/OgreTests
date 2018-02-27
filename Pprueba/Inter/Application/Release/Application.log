@@ -1,0 +1,29 @@
+﻿Build started 27/02/2018 12:28:24.
+     1>Project "C:\hlocal\ProyectoPrueba\Pprueba\Projects\Application\Application.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>ClCompile:
+         C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /IC:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\OgreMain\include /IC:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\Build\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\hlocal\ProyectoPrueba\Pprueba\Inter\Application\Release\\" /Fd"C:\hlocal\ProyectoPrueba\Pprueba\Inter\Application\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Src\Application\ProyectoBasico.cpp
+         ProyectoBasico.cpp
+     1>C:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\OgreMain\include\OgreEntity.h(896): warning C4996: 'Ogre::Resource::Listener::backgroundLoadingComplete': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\OgreResource.h(91) : see declaration of 'Ogre::Resource::Listener::backgroundLoadingComplete'
+     1>..\..\Src\Application\ProyectoBasico.cpp(11): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>..\..\Src\Application\ProyectoBasico.cpp(27): warning C4996: 'Ogre::Root::showConfigDialog': was declared deprecated
+                 C:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\OgreMain\include\OgreRoot.h(270) : see declaration of 'Ogre::Root::showConfigDialog'
+     1>..\..\Src\Application\ProyectoBasico.cpp(38): warning C4996: 'Ogre::Root::createSceneManager': was declared deprecated
+                 C:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\OgreMain\include\OgreRoot.h(392) : see declaration of 'Ogre::Root::createSceneManager'
+     1>..\..\Src\Application\ProyectoBasico.cpp(42): warning C4996: 'Ogre::Light::setPosition': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\OgreLight.h(189) : see declaration of 'Ogre::Light::setPosition'
+     1>..\..\Src\Application\ProyectoBasico.cpp(46): warning C4996: 'Ogre::Camera::setPosition': was declared deprecated
+                 C:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\OgreMain\include\OgreCamera.h(234) : see declaration of 'Ogre::Camera::setPosition'
+     1>..\..\Src\Application\ProyectoBasico.cpp(47): warning C4996: 'Ogre::Camera::lookAt': was declared deprecated
+                 C:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\OgreMain\include\OgreCamera.h(294) : see declaration of 'Ogre::Camera::lookAt'
+       Link:
+         C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\Build\lib\Release OgreMain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba.lib" /MACHINE:X86 /SAFESEH C:\hlocal\ProyectoPrueba\Pprueba\Inter\Application\Release\ProyectoBasico.obj
+         Generating code
+         Finished generating code
+         Application.vcxproj -> C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba.exe
+     1>Done Building Project "C:\hlocal\ProyectoPrueba\Pprueba\Projects\Application\Application.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.13

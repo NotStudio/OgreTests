@@ -1,0 +1,32 @@
+﻿Build started 27/02/2018 17:59:31.
+     1>Project "C:\hlocal\ProyectoPrueba\Pprueba\Projects\Application\Application.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(363,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+     1>ClCompile:
+         C:\software\programacion\MSVStudio2013\VC\bin\CL.exe /c /IC:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\OgreMain\include /IC:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\Build\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\hlocal\ProyectoPrueba\Pprueba\Inter\Application\Debug\\" /Fd"C:\hlocal\ProyectoPrueba\Pprueba\Inter\Application\Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
+         Game.cpp
+     1>c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogreentity.h(896): warning C4996: 'Ogre::Resource::Listener::backgroundLoadingComplete': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogreresource.h(91) : see declaration of 'Ogre::Resource::Listener::backgroundLoadingComplete'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(5): warning C4996: 'Ogre::StringUtil::BLANK': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogrestring.h(99) : see declaration of 'Ogre::StringUtil::BLANK'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(40): warning C4996: 'Ogre::ConfigFile::getSectionIterator': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogreconfigfile.h(94) : see declaration of 'Ogre::ConfigFile::getSectionIterator'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(63): warning C4996: 'Ogre::Root::showConfigDialog': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogreroot.h(270) : see declaration of 'Ogre::Root::showConfigDialog'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(84): warning C4996: 'Ogre::Root::createSceneManager': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogreroot.h(392) : see declaration of 'Ogre::Root::createSceneManager'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(91): warning C4996: 'Ogre::Camera::setPosition': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogrecamera.h(234) : see declaration of 'Ogre::Camera::setPosition'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(92): warning C4996: 'Ogre::Camera::lookAt': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogrecamera.h(294) : see declaration of 'Ogre::Camera::lookAt'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(119): warning C4996: 'Ogre::Light::setPosition': was declared deprecated
+                 c:\hlocal\proyectoprueba\pprueba\dependencies\ogre\ogremain\include\ogrelight.h(189) : see declaration of 'Ogre::Light::setPosition'
+     1>c:\hlocal\proyectoprueba\pprueba\projects\application\game.cpp(140): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+       Link:
+         C:\software\programacion\MSVStudio2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba_d.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\hlocal\ProyectoPrueba\Pprueba\Dependencies\Ogre\Build\lib\Debug OgreMain_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba_d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba_d.lib" /MACHINE:X86 C:\hlocal\ProyectoPrueba\Pprueba\Inter\Application\Debug\ProyectoBasico.obj
+         C:\hlocal\ProyectoPrueba\Pprueba\Inter\Application\Debug\Game.obj
+         Application.vcxproj -> C:\hlocal\ProyectoPrueba\Pprueba\Exes\Pprueba_d.exe
+     1>Done Building Project "C:\hlocal\ProyectoPrueba\Pprueba\Projects\Application\Application.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.02
